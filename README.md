@@ -5,8 +5,7 @@ Yêu cầu
 
 Python 3.8+
 
-SQL Server với DB FaceAttendanceDB đã khởi tạo (Users, Faces, Attendance)
-
+SQL Server với DB FaceAttendanceDB đã khởi tạo (Users, Faces, Attendance) - Script được cung cấp tại data/ScriptDataBase.sql
 Camera
 
 Chức năng
