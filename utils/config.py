@@ -2,11 +2,11 @@
 from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DB_CONFIG = {
-    "server": "DESKTOP-09UU83A",              # hoặc tên instance, ví dụ "localhost\\SQLEXPRESS"
-    "database": "FaceAttendanceDB",     # tên database bạn đã tạo
-    "auth": "windows",                  # "windows" nếu dùng Windows Authentication, "sql" nếu dùng SQL Authentication
-    "username": None,                   # điền khi auth="sql"
-    "password": None                    # điền khi auth="sql"
+    "server": "DESKTOP-09UU83A",
+    "database": "FaceAttendanceDB",
+    "auth": "windows",
+    "username": None,
+    "password": None
 }
 
 CSV_PATH = str(PROJECT_ROOT / "data" / "attendance.csv")
